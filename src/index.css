@@ -1,0 +1,25 @@
+body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      transition: background-color 0.3s, color 0.3s;
+      font-size: 0.9rem;
+    }
+    
+    body.dark {
+      background-color: #333;
+      color: #f0f0f0;
+    }
+    
+    #root {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      #root {
+        padding: 10px;
+      }
+    }
